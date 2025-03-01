@@ -55,7 +55,7 @@ const path = require("path");
 
 // ✅ Import Routes
 const userRouter = require("./router/userRouter");
-const vehicleRouter = require("./router/vehicleRouter");
+const vehicleRouter = require("./router/VehicleRouter");
 const bookingRouter = require("./router/BookingRouter");
 const authRouter = require("./router/authRouter");
 const adminRouter = require("./router/AdminRouter");
